@@ -61,7 +61,9 @@ body.dark-mode {
   width: 80%;
   margin-top: 2rem;
 }
-
+.bioinfo.dark-mode {
+  color: #ffffff;
+}
 .biobuttons {
   display: flex;
   flex-direction: row;
@@ -94,6 +96,10 @@ body.dark-mode {
   line-height: 28px;
   color: #ffffff;
 }
+.hirebutton.dark-mode {
+  background-color: #e1e1ff;
+  color: #000000;
+}
 .githubbutton {
   display: flex;
   flex-direction: row;
@@ -112,6 +118,11 @@ body.dark-mode {
   font-size: 18px;
   line-height: 28px;
   color: #3730a3;
+}
+.githubbutton.dark-mode {
+  background-color: #383838;
+  color: #e1e1ff;
+  border: 1px solid #e1e1ff;
 }
 .linkedinbutton {
   display: flex;
@@ -132,6 +143,12 @@ body.dark-mode {
   line-height: 28px;
   color: #3730a3;
 }
+.linkedinbutton.dark-mode {
+  background-color: #383838;
+  color: #e1e1ff;
+  border: 1px solid #e1e1ff;
+}
+
 .hirebutton:hover {
   cursor: pointer;
 }
@@ -187,6 +204,9 @@ body.dark-mode {
   margin-bottom: 2rem;
   font-family: "Inter";
 }
+.heading-list.dark-mode {
+  color: #aebccf;
+}
 
 .list {
   display: flex;
@@ -202,6 +222,10 @@ body.dark-mode {
   color: #4338ca;
   margin-bottom: 2rem;
 }
+.skill-list h3.dark-mode {
+  color: #b7aaff;
+}
+
 .skill-list p {
   font-style: normal;
   font-family: "Inter";
@@ -210,6 +234,9 @@ body.dark-mode {
   line-height: 1rem;
   color: #6b7280;
   margin-bottom: 1rem;
+}
+.skill-list p.dark-mode {
+  color: #ffffff;
 }
 .projectimg {
   width: 100%;
@@ -220,6 +247,9 @@ body.dark-mode {
 
 .name-line {
   margin-top: 0.6rem;
+}
+.name-line.dark-mode {
+  color: #b7aaff;
 }
 .bioname {
   display: flex;
@@ -233,6 +263,9 @@ body.dark-mode {
   font-size: 72px;
   line-height: 72px;
   margin-top: 1rem;
+}
+.bioheading.dark-mode {
+  color: #aebccf;
 }
 .biobelow {
   display: flex;
@@ -274,6 +307,9 @@ body.dark-mode {
   padding: 0px;
   gap: 11px;
 }
+.projectlink a.dark-mode {
+  color: #e1e1ff;
+}
 
 .projectlink a {
   font-style: normal;
@@ -296,6 +332,9 @@ body.dark-mode {
   line-height: 36px;
   letter-spacing: 0.01em;
 }
+.leftlabel.dark-mode {
+  color: #ffffff;
+}
 .leftdes {
   font-family: "Inter";
   font-style: normal;
@@ -303,6 +342,9 @@ body.dark-mode {
   font-size: 18px;
   line-height: 200%;
   letter-spacing: 0.01em;
+}
+.leftdes.dark-mode {
+  color: #ffffff;
 }
 .profilebelow {
   display: flex;
@@ -324,6 +366,9 @@ body.dark-mode {
   line-height: 27px;
   color: #6b7280;
 }
+.profileright.dark-mode {
+  color: #ffffff;
+}
 .profileheading {
   font-family: "Inter";
   font-style: normal;
@@ -333,6 +378,9 @@ body.dark-mode {
   color: #1f2937;
   margin-bottom: 1rem;
 }
+.profileheading.dark-mode {
+  color: #aebccf;
+}
 .profilsubhead {
   font-family: "Inter";
   font-style: normal;
@@ -341,16 +389,25 @@ body.dark-mode {
   line-height: 28px;
   color: #4338ca;
 }
+.profilsubhead.dark-mode {
+  color: #b7aaff;
+}
 .footercontainer {
   width: 100%;
   height: 25.56rem;
   margin-top: 5rem;
   background: white;
 }
+.footercontainer.dark-mode {
+  background-color: #141414;
+}
 .footerheading {
   display: flex;
   height: 50%;
   align-items: center;
+}
+.foothead.dark-mode {
+  color: #aebccf;
 }
 .foothead {
   display: flex;
@@ -385,6 +442,9 @@ body.dark-mode {
   text-decoration-line: underline;
   color: #af0c48;
 }
+.mail.dark-mode {
+  color: #bab2e7;
+}
 .githubFooter {
   font-family: "Inter";
   font-style: normal;
@@ -411,6 +471,9 @@ body.dark-mode {
   font-weight: 500;
   font-size: 18px;
   line-height: 150%;
+}
+.personalFooter.dark-mode {
+  color: #e1e1ff;
 }
 .dark-mode__toggle {
   background: #4731d3;
@@ -489,10 +552,17 @@ body.dark-mode {
   font-size: 24px;
   line-height: 2rem;
 }
+.circle.dark-mode {
+  color: #8f88ff;
+  background-color: #4731d3;
+}
 .name {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
+}
+.name.dark-mode {
+  color: #b7aaff;
 }

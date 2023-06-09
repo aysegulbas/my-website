@@ -8,7 +8,9 @@ const Projects2 = () => {
       {language === "eng" ? (
         <div className="skillsContainer">
           <div className="skillsContent">
-            <h3 className="heading-list">Projects</h3>
+            <div id="projectsScroll">
+              <h3 className="heading-list">Projects</h3>
+            </div>
             <div className="skills">
               {ProjectsDataEng.map((project) => (
                 <div className="list" key={project.title}>

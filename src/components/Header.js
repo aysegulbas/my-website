@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { LanguageContext } from "../contexts/LanguageContext";
+import { Link } from "react-scroll";
 
 const Header = ({}) => {
   const { language } = useContext(LanguageContext);
@@ -9,16 +10,37 @@ const Header = ({}) => {
       <div className="headernav">
         <ul>
           <li>
-            {language === "eng" ? <span>Skills</span> : <span>Yetenekler</span>}
-          </li>
-          <li>
-            {language === "eng" ? <span>Projects</span> : <span>Projeler</span>}
+            {language === "eng" ? (
+              <Link to="skillsScroll" smooth={true} duration={700}>
+                <span>Skills</span>
+              </Link>
+            ) : (
+              <Link to="skillsScroll" smooth={true} duration={700}>
+                {" "}
+                <span>Yetenekler</span>
+              </Link>
+            )}
           </li>
           <li>
             {language === "eng" ? (
-              <span className="headhire">Hire me</span>
+              <Link to="projectsScroll" smooth={true} duration={700}>
+                <span>Projects</span>
+              </Link>
             ) : (
-              <span className="headhire">İletişim</span>
+              <Link to="projectsScroll" smooth={true} duration={700}>
+                <span>Projeler</span>
+              </Link>
+            )}
+          </li>
+          <li>
+            {language === "eng" ? (
+              <Link to="contactScroll" smooth={true} duration={1000}>
+                <span className="headhire">Hire me</span>
+              </Link>
+            ) : (
+              <Link to="contactScroll" smooth={true} duration={1000}>
+                <span className="headhire">İletişim</span>
+              </Link>
             )}
           </li>
         </ul>

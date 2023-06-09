@@ -23,6 +23,7 @@ const Footer = ({}) => {
         <a href="mailto:aysgl_nese@hotmail.com" className="mail">
           👉aysgl_nese@hotmail.com
         </a>
+
         <div className="footerlink">
           <div>
             {language === "eng" ? (

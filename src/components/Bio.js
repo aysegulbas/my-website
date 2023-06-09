@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { LanguageContext } from "../contexts/LanguageContext";
 import profil from "../data/images/profil.png";
+import { Link } from "react-scroll";
 
 const Bio = () => {
   const { language } = useContext(LanguageContext);
@@ -46,6 +47,7 @@ const Bio = () => {
             ) : (
               <button className="hirebutton">İletişim</button>
             )}
+
             <a href="https://github.com/aysegulbas/">
               <button className="githubbutton">
                 <i class="fa-brands fa-github" aria-hidden="true"></i>
