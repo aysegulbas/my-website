@@ -6,24 +6,17 @@ body.dark-mode {
   background-color: #252128;
   text-decoration: none;
 }
-.appcontainer {
-  display: flex;
-  flex-direction: column;
-  width: 1440px;
-  margin: auto;
-}
 
 .headercontainer {
   display: flex;
-
+  font-family: "Inter";
   align-items: center;
   margin-top: 2rem;
 }
 .headernav {
   display: flex;
   margin-left: 52rem;
-  font-family: "Inter";
-  font-style: normal;
+
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
@@ -52,7 +45,7 @@ body.dark-mode {
   padding: 0.75rem 2rem;
   cursor: pointer;
 }
-.bioinfo {
+.o {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -61,7 +54,7 @@ body.dark-mode {
   width: 80%;
   margin-top: 2rem;
 }
-.bioinfo.dark-mode {
+.o.dark-mode {
   color: #ffffff;
 }
 .biobuttons {
@@ -76,6 +69,9 @@ body.dark-mode {
 .biobuttons a {
   text-decoration: none;
 }
+.deneme {
+  color: hotpink;
+}
 .hirebutton {
   display: flex;
   flex-direction: row;
@@ -89,7 +85,7 @@ body.dark-mode {
   background: #3730a3;
   border-radius: 6px;
   cursor: pointer;
-  font-family: "Inter";
+
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -164,9 +160,10 @@ body.dark-mode {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 4rem;
   flex-wrap: wrap;
   border-bottom: 1px solid #bab2e7;
+  font-family: "Inter";
 }
 .skills {
   display: flex;
@@ -196,7 +193,6 @@ body.dark-mode {
   /* gap: 7.5rem; */
 }
 .heading-list {
-  font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 48px;
@@ -214,8 +210,6 @@ body.dark-mode {
   width: 30%;
 }
 .skill-list h3 {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 500;
   font-size: 30px;
   line-height: 28px;
@@ -227,9 +221,6 @@ body.dark-mode {
 }
 
 .skill-list p {
-  font-style: normal;
-  font-family: "Inter";
-  font-weight: 400;
   font-size: 0.75rem;
   line-height: 1rem;
   color: #6b7280;
@@ -243,6 +234,7 @@ body.dark-mode {
   object-fit: cover;
   height: 23rem;
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .name-line {
@@ -257,7 +249,6 @@ body.dark-mode {
   padding-top: 3rem;
 }
 .bioheading {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
@@ -282,6 +273,14 @@ body.dark-mode {
   box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
     0px 18px 88px -4px rgba(24, 39, 75, 0.14);
   border-radius: 18px;
+}
+.bioinfo {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  width: 80%;
+  margin-top: 2rem;
 }
 
 .details {
@@ -336,9 +335,6 @@ body.dark-mode {
   color: #ffffff;
 }
 .leftdes {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 200%;
   letter-spacing: 0.01em;
@@ -352,6 +348,8 @@ body.dark-mode {
 }
 .profilcontainer {
   border-bottom: 1px solid #bab2e7;
+  font-family: "Inter";
+  margin-top: 4rem;
 }
 .profilcontent {
   margin-bottom: 1rem;
@@ -359,9 +357,7 @@ body.dark-mode {
 .profileright {
   width: 50%;
   margin-right: 10%;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
+
   font-size: 18px;
   line-height: 27px;
   color: #6b7280;
@@ -370,8 +366,6 @@ body.dark-mode {
   color: #ffffff;
 }
 .profileheading {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 600;
   font-size: 3rem;
   line-height: 3rem;
@@ -382,8 +376,6 @@ body.dark-mode {
   color: #aebccf;
 }
 .profilsubhead {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 500;
   font-size: 30px;
   line-height: 28px;
@@ -397,6 +389,7 @@ body.dark-mode {
   height: 25.56rem;
   margin-top: 5rem;
   background: white;
+  font-family: "Inter";
 }
 .footercontainer.dark-mode {
   background-color: #141414;
@@ -413,7 +406,7 @@ body.dark-mode {
   display: flex;
   flex-direction: column;
   width: 1440px;
-  font-family: "Inter";
+
   font-style: normal;
   font-weight: 600;
   font-size: 42px;
@@ -426,55 +419,7 @@ body.dark-mode {
   justify-content: space-between;
   gap: 1.25rem;
 }
-.footerbelow {
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  width: 1440px;
-}
-.mail {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.05em;
-  text-decoration-line: underline;
-  color: #af0c48;
-}
-.mail.dark-mode {
-  color: #bab2e7;
-}
-.githubFooter {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 150%;
-  letter-spacing: 0.01em;
-  color: #00ab6b;
-  text-decoration: none;
-}
-.linkedinFooter {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 150%;
-  letter-spacing: 0.01em;
-  color: #0077b5;
-  text-decoration: none;
-}
-.personalFooter {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 150%;
-}
-.personalFooter.dark-mode {
-  color: #e1e1ff;
-}
+
 .dark-mode__toggle {
   background: #4731d3;
   border-radius: 100px;
@@ -488,81 +433,30 @@ body.dark-mode {
   background: #ffe86e;
   border-radius: 50px;
   height: 18px;
-  left: 0;
+  left: 1px;
   position: absolute;
   transition: 0.2s;
   width: 18px;
   margin-top: 3px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-
+.icon {
+  background: #3a3a3a;
+  border-radius: 50px;
+  height: 14px;
+  left: 31px;
+  position: absolute;
+  transition: 0.2s;
+  width: 14px;
+  margin-top: 4px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
 .toggled {
-  left: 37px;
+  left: 33px;
+}
+.lighttoast{
+  background-color: #000000;
+  color:aliceblue;
+  
 }
 
-.modechange {
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 2rem;
-  letter-spacing: 0.1em;
-  margin-left: 1rem;
-  line-height: 18px;
-  align-items: center;
-}
-.cubuk {
-  letter-spacing: 0.1em;
-}
-.modetext {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 18px;
-  letter-spacing: 0.1em;
-  color: #777777;
-  margin-left: 0.5rem;
-}
-.modetext.dark-mode {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 18px;
-  letter-spacing: 0.1em;
-  color: #d9d9d9;
-  margin-left: 0.5rem;
-}
-
-.headernav {
-}
-.circle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 1.5rem;
-  height: 1.5rem;
-  background-color: #c4e2e4;
-  color: #7b61ff;
-  padding: 2rem;
-  border-radius: 50%;
-  transform: matrix(0.87, 0.49, -0.51, 0.86, 0, 0);
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 2rem;
-}
-.circle.dark-mode {
-  color: #8f88ff;
-  background-color: #4731d3;
-}
-.name {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-}
-.name.dark-mode {
-  color: #b7aaff;
-}
